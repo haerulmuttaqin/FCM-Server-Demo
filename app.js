@@ -7,9 +7,12 @@ admin.initializeApp({
 });
 
 const message = {
-    data: {
-        title: 'New Notification',
+    notification: {
+        title: 'New Sadix Notif',
         body: 'Hello, this is a test notification!'
+    },
+    data: {
+        // the data payload
     },
     token: registrationToken
 };
